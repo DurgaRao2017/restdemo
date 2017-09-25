@@ -13,4 +13,14 @@ host:'127.0.0.1',
  database:'test'
  
 });
+
+
+// var connection=mysql.createPool({
+// 
+//host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+// user:'awsuser',
+// password:'awspassword',
+// database:'test'
+// 
+//});
  module.exports=connection;
