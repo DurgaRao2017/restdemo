@@ -15,21 +15,21 @@ var mysql=require('mysql');
 //});
 
 
-// var connection=mysql.createPool({
-// 
-//host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
-// user:'awsuser',
-// password:'awspassword',
-// database:'test'
-// 
-//});
-
-var connection=mysql.createPool({
+ var connection=mysql.createPool({
  
-host:'USILASD00010',
- user:'dev_support_user',
- password:'M4kHUV<ZXemr&-v',
- database:'support_db_dev',
- port:'1433'
+host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+ user:'awsuser',
+ password:'awspassword',
+ database:'Test'
+ 
 });
+
+//var connection=mysql.createPool({
+// 
+//host:'USILASD00010',
+// user:'dev_support_user',
+// password:'M4kHUV<ZXemr&-v',
+// database:'support_db_dev',
+// port:'1433'
+//});
  module.exports=connection;

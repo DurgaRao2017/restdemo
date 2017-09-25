@@ -11,12 +11,16 @@ var Task={
 getAllTasks:function(callback){
  
 //return db.query("Select * from test.users",callback);
-return db.query("Select * from user_site",callback);
- 
+
+return db.query("Select * from Test.Users",callback);
+
 },
  getTaskById:function(id,callback){
  
-return db.query("select * from test.users where id=?",[id],callback);
+//return db.query("select * from test.users where id=?",[id],callback);
+
+ return db.query("select * from Test.Users where id=?",[id],callback);
+
  },
  addTask:function(Task,callback){
  return db.query("Insert into test.users values(?,?,?)",[Task.id,Task.UserName,Task.Password],callback);
