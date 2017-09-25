@@ -10,7 +10,8 @@ var Task={
  
 getAllTasks:function(callback){
  
-return db.query("Select * from test.users",callback);
+//return db.query("Select * from test.users",callback);
+return db.query("Select * from user_site",callback);
  
 },
  getTaskById:function(id,callback){
