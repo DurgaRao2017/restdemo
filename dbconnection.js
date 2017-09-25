@@ -17,12 +17,12 @@ var mysql=require('mysql');
 
  var connection=mysql.createPool({
  
-host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+host:'localhost',
  user:'awsuser',
  password:'awspassword',
- database:'Test',
- port:3306,
- socketPath:'/var/run/mysqld/mysqld.sock'
+ database:'Test'
+// port:3306,
+ //socketPath:'/var/run/mysqld/mysqld.sock'
 });
 
 
