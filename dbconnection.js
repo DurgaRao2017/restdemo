@@ -21,8 +21,10 @@ host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
  user:'awsuser',
  password:'awspassword',
  database:'Test',
- port:'3306'
+ port:3306,
+ socketPath:'/var/run/mysqld/mysqld.sock'
 });
+
 
 //var connection=mysql.createPool({
 // 
