@@ -17,11 +17,11 @@ var mysql=require('mysql');
 
  var connection=mysql.createPool({
  
-host:'localhost',
+host:'127.0.0.1',
  user:'awsuser',
  password:'awspassword',
- database:'Test'
-// port:3306,
+ database:'Test',
+ port:'3306'
  //socketPath:'/var/run/mysqld/mysqld.sock'
 });
 
