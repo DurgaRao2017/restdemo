@@ -20,8 +20,8 @@ var mysql=require('mysql');
 host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
  user:'awsuser',
  password:'awspassword',
- database:'Test'
- 
+ database:'Test',
+ port:'3306'
 });
 
 //var connection=mysql.createPool({
