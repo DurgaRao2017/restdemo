@@ -30,11 +30,11 @@ var mysql=require('mysql');
  
 // socketPath : '/tmp/mysql.sock',
 host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
- user:'jerry',
- password:'jerrypassword',
+ user:'root',
+ password:'login@12345',
  database:'Test',
- port:3306,
- socket:'/var/lib/mysql/mysql.sock'
+ port:3306
+// socket:'/var/lib/mysql/mysql.sock'
 });
 //var connection=mysql.createPool({
 // 
