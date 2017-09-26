@@ -15,18 +15,27 @@ var mysql=require('mysql');
 //});
 
 
+// var connection=mysql.createPool({
+// 
+//// socketPath : '/tmp/mysql.sock',
+//host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com' || '127.0.0.1',
+// user:'awsuser',
+// password:'awspassword',
+// database:'Test',
+// port:3306
+// //socketPath:'/var/run/mysqld/mysqld.sock'
+//});
+
  var connection=mysql.createPool({
  
 // socketPath : '/tmp/mysql.sock',
-host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com' || '127.0.0.1',
- user:'awsuser',
- password:'awspassword',
+host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+ user:'jerry',
+ password:'jerrypassword',
  database:'Test',
  port:3306
  //socketPath:'/var/run/mysqld/mysqld.sock'
 });
-
-
 //var connection=mysql.createPool({
 // 
 //host:'USILASD00010',
