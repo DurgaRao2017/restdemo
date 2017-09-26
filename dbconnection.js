@@ -33,8 +33,8 @@ host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
  user:'jerry',
  password:'jerrypassword',
  database:'Test',
- port:3306
- //socketPath:'/var/run/mysqld/mysqld.sock'
+ port:3306,
+ socket:'/var/lib/mysql/mysql.sock'
 });
 //var connection=mysql.createPool({
 // 
