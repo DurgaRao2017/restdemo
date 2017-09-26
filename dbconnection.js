@@ -29,7 +29,8 @@ var mysql=require('mysql');
  var connection=mysql.createPool({
  
 // socketPath : '/tmp/mysql.sock',
-host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+ //host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+ host:'localhost',
  user:'root',
  password:'login@12345',
  database:'Test',
