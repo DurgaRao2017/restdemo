@@ -29,10 +29,10 @@ var mysql=require('mysql');
  var connection=mysql.createPool({
  
 // socketPath : '/tmp/mysql.sock',
- //host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
- host:'localhost' || '127.0.0.1',
- user:'jerry',
- password:'jerrypassword',
+ host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
+// host:'localhost' || '127.0.0.1',
+ user:'awsuser',
+ password:'awspassword',
  database:'Test',
  port:3306
 // socket:'/var/lib/mysql/mysql.sock'
