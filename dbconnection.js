@@ -30,9 +30,9 @@ var mysql=require('mysql');
  
 // socketPath : '/tmp/mysql.sock',
  //host:'testdbnew.clqdft9lf1cm.us-east-1.rds.amazonaws.com',
- host:'localhost',
- user:'root',
- password:'login@12345',
+ host:'localhost' || '127.0.0.1',
+ user:'jerry',
+ password:'jerrypassword',
  database:'Test',
  port:3306
 // socket:'/var/lib/mysql/mysql.sock'
