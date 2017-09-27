@@ -8,6 +8,7 @@ var cors=require('cors');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var Tasks=require('./routes/Tasks');
+var Signup=require('./routes/Signup'); //Added on Sep 27,2017
 var app = express();
  
 // view engine setup
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/Tasks',Tasks);
+app.use('/Signup',Signup); //Added on Sep 27,2017
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
 var err = new Error('Not Found');
