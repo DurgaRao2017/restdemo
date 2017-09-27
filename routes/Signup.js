@@ -24,7 +24,7 @@ var rand,mailOptions,host,link;
 //router.get('/',function(req,res){
 //    res.sendfile('index.html');
 //});
-router.post('/send',function(req,res){
+router.get('/send',function(req,res){
         rand=Math.floor((Math.random() * 100) + 54);
     host=req.get('host');
     link="http://"+req.get('host')+"/verify?id="+rand;
